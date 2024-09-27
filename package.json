@@ -1,0 +1,22 @@
+{
+  "name": "webdriverio-framework",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Inell",
+  "license": "ISC",
+  "description": "Webdriveroi automation framework",
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+        "@babel/preset-env": "^7.25.4",
+        "@babel/register": "^7.24.6",
+        "@wdio/cli": "^9.1.0",
+        "@wdio/local-runner": "^9.1.0",
+        "@wdio/mocha-framework": "^9.1.0",
+        "@wdio/spec-reporter": "^9.1.0",
+        "chromedriver": "^129.0.0",
+        "wdio-chromedriver-service": "^8.1.1"
+  }
+}
