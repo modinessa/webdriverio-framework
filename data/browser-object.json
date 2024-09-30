@@ -1,0 +1,29 @@
+{
+  "sessionId": "40944f2b544a3d79cd7e3c65047cd8cf",
+  "capabilities": {
+    "acceptInsecureCerts": false,
+    "browserName": "chrome",
+    "browserVersion": "129.0.6668.59",
+    "chrome": {
+      "chromedriverVersion": "129.0.6668.70 (df87d5cf12b1397be7495a04cab2db6239b227a8-refs/branch-heads/6668@{#1420})",
+      "userDataDir": "C:\\Users\\modin\\AppData\\Local\\Temp\\scoped_dir26868_1509572548"
+    },
+    "fedcm:accounts": true,
+    "goog:chromeOptions": { "debuggerAddress": "localhost:51907" },
+    "networkConnectionEnabled": false,
+    "pageLoadStrategy": "normal",
+    "platformName": "windows",
+    "proxy": {},
+    "setWindowRect": true,
+    "strictFileInteractability": false,
+    "timeouts": { "implicit": 0, "pageLoad": 300000, "script": 30000 },
+    "unhandledPromptBehavior": "dismiss and notify",
+    "webSocketUrl": "ws://localhost:51895/session/40944f2b544a3d79cd7e3c65047cd8cf",
+    "webauthn:extension:credBlob": true,
+    "webauthn:extension:largeBlob": true,
+    "webauthn:extension:minPinLength": true,
+    "webauthn:extension:prf": true,
+    "webauthn:virtualAuthenticators": true,
+    "wdio:driverPID": 26868
+  }
+}

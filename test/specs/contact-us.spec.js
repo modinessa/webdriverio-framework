@@ -1,9 +1,10 @@
 describe('webdriveruniversity - contact us page', () => {
     beforeEach(async () => {
         await browser.maximizeWindow();
+        await browser.url('/Contact-Us/contactus.html');
+        console.log(`>>Browser Object: ${JSON.stringify(browser)}`);
     });
     it('valid submission - submit all information', async() => {
-        await browser.url('/Contact-Us/contactus.html')
         //first name
         const firstName = await $('//*[@name="first_name"]');
         //last name
@@ -24,12 +25,11 @@ describe('webdriveruniversity - contact us page', () => {
         //Success message
         const successfulSubmitionHeader = $('#contact_reply > h1');
         await expect(successfulSubmitionHeader).toHaveText('Thank You for your Message!');
-        await browser.pause(5000);
+        // await browser.pause(5000);
         
     });
     
-    it.only('invalid submition - dont submit all information', async() => {
-        await browser.url('/Contact-Us/contactus.html')
+    it.skip('invalid submition - dont submit all information', async() => {
         //first name
         const firstName = await $('//*[@name="first_name"]');
         await firstName.setValue("Joe");
