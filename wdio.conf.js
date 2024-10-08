@@ -21,7 +21,8 @@ exports.config = {
     // of the config file unless it's absolute.
     //
     specs: [
-        './test/specs/locating-elements.spec.js'
+        // './test/specs/locating-elements.spec.js'
+        './test/specs/wait-commands.spec.js'
     ],
     // Patterns to exclude.
     exclude: [
@@ -85,7 +86,7 @@ exports.config = {
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
     // baseUrl: 'https://www.webdriveruniversity.com',
-    baseUrl: 'https://www.selectors.webdriveruniversity.com/',
+    baseUrl: 'https://www.webdriveruniversity.com/',
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 10000,
