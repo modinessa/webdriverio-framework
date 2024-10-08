@@ -4,7 +4,7 @@ describe('webdriveruniversity - contact us page', () => {
         await browser.url('/Contact-Us/contactus.html');
         console.log(`>>Browser Object: ${JSON.stringify(browser)}`);
     });
-    it('valid submission - submit all information', async() => {
+    it.only('valid submission - submit all information', async() => {
         //first name
         const firstName = await $('//*[@name="first_name"]');
         //last name
@@ -27,6 +27,8 @@ describe('webdriveruniversity - contact us page', () => {
         await expect(successfulSubmitionHeader).toHaveText('Thank You for your Message!');
         // await browser.pause(5000);
         
+        const successfulSubmitionHeader2 = await $('#contact_reply > h1').getText();
+        await expect(successfulSubmitionHeader2).toEqual('Thank You for your Message!');
     });
     
     it.skip('invalid submition - dont submit all information', async() => {
