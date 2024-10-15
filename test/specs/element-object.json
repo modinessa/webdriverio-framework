@@ -1,0 +1,38 @@
+{
+  "sessionId": "864e0d0193a98c4345eba24d2f04292d",
+  "elementId": "f.C0229B8E7408669C540A7C3E45FF29DF.d.A250CC7779D220E4173C326B7EAF9229.e.147",
+  "element-6066-11e4-a52e-4f735466cecf": "f.C0229B8E7408669C540A7C3E45FF29DF.d.A250CC7779D220E4173C326B7EAF9229.e.147",
+  "locator": { "type": "css", "value": "#contact_reply > h1" },
+  "selector": "#contact_reply > h1",
+  "parent": {
+    "sessionId": "864e0d0193a98c4345eba24d2f04292d",
+    "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "129.0.6668.90",
+      "chrome": {
+        "chromedriverVersion": "129.0.6668.90 (abb728f8afc6a86cc66b1313f5056728ce422ddd-refs/branch-heads/6668@{#1504})",
+        "userDataDir": "C:\\Users\\modin\\AppData\\Local\\Temp\\scoped_dir15672_1487566435"
+      },
+      "fedcm:accounts": true,
+      "goog:chromeOptions": { "debuggerAddress": "localhost:54263" },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {},
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": { "implicit": 0, "pageLoad": 300000, "script": 30000 },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webSocketUrl": "ws://localhost:54258/session/864e0d0193a98c4345eba24d2f04292d",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "webauthn:virtualAuthenticators": true,
+      "wdio:driverPID": 15672
+    }
+  },
+  "isReactElement": false,
+  "isShadowElement": false
+}

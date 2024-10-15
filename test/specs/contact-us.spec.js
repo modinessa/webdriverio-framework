@@ -27,8 +27,10 @@ describe('webdriveruniversity - contact us page', () => {
         await expect(successfulSubmitionHeader).toHaveText('Thank You for your Message!');
         // await browser.pause(5000);
         
-        const successfulSubmitionHeader2 = await $('#contact_reply > h1').getText();
-        await expect(successfulSubmitionHeader2).toEqual('Thank You for your Message!');
+        const successfulSubmitionHeader2 = await $('#contact_reply > h1');
+        console.log("Test log");
+        console.log("successfulSubmitionHeader2 element " + JSON.stringify(await successfulSubmitionHeader2));
+        await expect(successfulSubmitionHeader2).toHaveText('Thank You for your Message!');
     });
     
     it.skip('invalid submition - dont submit all information', async() => {
@@ -44,6 +46,8 @@ describe('webdriveruniversity - contact us page', () => {
         
         //submit button
         const submitButton = await $('//input[@value="SUBMIT"]');
+
+        await browser.debug();
         await submitButton.click();
         
 
